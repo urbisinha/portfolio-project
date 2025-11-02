@@ -1,93 +1,68 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Urbi Sinha | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>Urbi Sinha</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section id="hero">
-    <h2>Welcome to My Portfolio</h2>
-    <p>Hello! I am a web development student. This is my personal portfolio website.</p>
-  </section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
   <section id="about">
-    <h2>About Me</h2>
-    <img src="images/profile.jpg" alt="Urbi Sinha profile photo" width="180">
-    <p>
-      I am passionate about learning web development and exploring how the web works. 
-      I enjoy building simple and creative projects that help me practice HTML, CSS, and Python. 
-      My goal is to become a confident web developer and create useful, well-designed websites.
-    </p>
+    <img src="images/profile.jpg" alt="Urbi Sinha Profile Photo">
+    <h1>Urbi Sinha</h1>
+    <p>Hello! I’m a Web Development student passionate about building creative and functional websites. I enjoy learning new technologies and improving my skills every day.</p>
   </section>
 
-  <section id="projects">
-    <h2>My Projects</h2>
-    <ul>
-      <li><b>Portfolio Website:</b> A personal one-page website to showcase my bio, skills, and contact details.</li>
-      <li><b>Student Grade Calculator:</b> A Python program that helps students calculate their average marks and grades.</li>
-      <li><b>To-Do List App:</b> A simple web-based app to manage daily tasks using HTML and basic JavaScript.</li>
-      <li><b>Feedback Form:</b> A webpage that allows users to submit feedback through a simple HTML form.</li>
-    </ul>
-  </section>
+  <hr>
 
   <section id="skills">
     <h2>Technical Skills</h2>
-    <table border="1" cellpadding="6">
+    <table>
       <tr>
         <th>Skill</th>
-        <th>Level</th>
+        <th>Proficiency</th>
       </tr>
       <tr>
         <td>HTML</td>
-        <td>Beginner</td>
+        <td>Advanced</td>
       </tr>
       <tr>
         <td>CSS</td>
-        <td>Beginner</td>
+        <td>Intermediate</td>
       </tr>
       <tr>
-        <td>JavaScript</td>
-        <td>Learning</td>
+        <td>Python</td>
+        <td>Beginner</td>
       </tr>
     </table>
   </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <form action="#" method="post">
-      <label for="name">Name:</label><br>
-      <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+  <hr>
 
-      <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
-
-      <label for="message">Message:</label><br>
-      <textarea id="message" name="message" placeholder="Enter your message" required></textarea><br><br>
-
-      <input type="submit" value="Send">
-    </form>
+  <section id="projects">
+    <h2>My Projects</h2>
+    <p>Here are some of my small beginner-level projects made using HTML, CSS, and Python.</p>
+    <button>View My Work</button>
   </section>
 
-  <footer>
-    <p>&copy; 2025 Urbi Sinha | All rights reserved.</p>
-    <p>Email: <a href="mailto:urbisinha1@gmail.com">urbisinha1@gmail.com</a></p>
+  <hr>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: urbisinha@example.com</p>
     <p>GitHub: <a href="https://github.com/urbisinha" target="_blank">github.com/urbisinha</a></p>
-  </footer>
+    <button>Send Message</button>
+  </section>
+
+  <button id="backToTop">↑</button>
 
 </body>
 </html>
